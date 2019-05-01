@@ -1,4 +1,9 @@
 module SI 
+
+    TSSGP = exp(841.2869278)                                # 26 sporadic group Product 
+    HFP = exp(674.5210288)                                  # Happy Family product
+    O_M = 80801742479451287588645990496171075700575436800000000 #2^46 · 3^20 · 5^9 · 7^6 · 11^2 · 13^3 · 17 · 19 · 23 · 29 · 31 · 41 · 47 · 59 · 71
+    O_B = 4154781481226426191177580544000000                #2^41 · 3^13 · 5^6 · 7^2 · 11 · 13 · 17 · 19 · 23 · 31 · 47
     ΔνCs = 9192631770e0;                                    #  Δν(133Cs)hfs=9192631770e0 s−1
     λe = 2.4263102367e-12;                                  # Electron Compton wavelength in m 
     ƛe = 3.861592046068738e-13;                             # ƛe ≡ ħ/m_ec Reduced Electron Compton wavelength 
@@ -65,7 +70,7 @@ module SI
     UkTon = 1.0160469088e3;                                 # kg 
     TroyOunce = 3.1103475e-2;                               # kg 
     Carat = 2e-4;                                           # kg 
-    UnifiedAtomicMass = 1.660538782e-27;                    # kg 
+    UnifiedAtomicMass = 1.660539040e-27;                    # kg per u, Da or AMU [See Dalton] 
     GramForce = 9.80665e-3;                                 # kg m / s^2 
     PoundForce = 4.44822161526e0;                           # kg m / s^2 
     KilopoundForce = 4.44822161526e3;                       # kg m / s^2 
@@ -123,5 +128,6 @@ module SI
     γ = 0.5772156649015328606065120900824024310421593359e0; # Euler–Mascheroni constant
     e = 2.7182818284590450907955982984276488423343144531e0; # Euler
     a = 137.035999139e0;                                    # Sanchez Electric Constant
+    a_G = 1.32613243113089e-69                              # a_G gravitational coupling constant 
     #α^-1 = 137.035999139e0                                 # Inverse fine-structure Constant
 end
